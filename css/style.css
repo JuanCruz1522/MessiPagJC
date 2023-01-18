@@ -1,0 +1,169 @@
+img{
+    object-fit: cover;
+    width:100%;
+    height:100%;
+  }
+
+header nav img{
+    width: 75px;
+    height: 75px;
+}
+
+header nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+
+
+    
+}
+
+a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #111;
+}
+
+
+
+.inline{
+    display: inline;
+}
+
+.style{
+    content: 15px;
+    margin: 15px;
+}
+
+section{
+    display: inline;
+
+}
+
+
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: auto;
+    text-align: right;
+}
+
+main div p{
+    color: #111;
+    background-image: url(../fotosmessi/fotograma_6.jpg);
+}
+
+main div h1{
+
+    color:white;   
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+main div img{
+    margin-top: 0;
+}
+
+.fondo{
+  background-image: url("https://carontestudio.com/img/caronte-web-estudio-logo.png");
+  background-repeat: repeat-y;
+  background-size: 10rem;
+}
+
+.conteiner{
+    display: flex;
+    flex-wrap: wrap;
+}
+.conteiner li{
+    padding: 15px;
+}
+
+section{
+    display:flex;
+    justify-content: space-around;
+    background-image: url(../fotosmessi/fotograma_6.jpg);
+    
+    
+}
+
+section div.img {
+    margin: 5px;
+    border: 1px solid #ccc;
+    width: 180px;
+    padding: 10px;
+}
+
+section div.img:hover {
+    border: 1px solid #777;
+}
+
+section div.img img {
+
+    width: 100%;
+    height: 400px;
+}
+
+section div.desc {
+    padding: 15px;
+    text-align: center;
+ }
+
+ 
+
+
+ 
+ .conteinersec{
+    display: flex;
+    flex-wrap: wrap;
+ }
+ 
+
+
+
+ #conteinerselec h1{
+    color:white;   
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    list-style-type: none;
+    margin-top: 0;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+ }
+
+ #conteinerselec2 h2{
+    display: flex;
+    flex-wrap: wrap;
+ }
+ #conteinerselec2 h2{
+    color: whitesmoke;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    background-color: black;
+ }
+
+ #conteinerselec3{
+    display: block;
+    flex-wrap: wrap;
+ }
+
+ #conteinerselec3 h2{
+    color: whitesmoke;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    background-color: black;
+ }
+

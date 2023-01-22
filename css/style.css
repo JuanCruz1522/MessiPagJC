@@ -53,7 +53,7 @@ footer{
     display: flex;
     flex-wrap: wrap;
     margin-top: auto;
-    text-align: right;
+    text-align: left;
 }
 
 main div p{
@@ -92,8 +92,10 @@ main div img{
 
 section{
     display:flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     background-image: url(../fotosmessi/fotograma_6.jpg);
+    
     
     
 }
@@ -121,16 +123,20 @@ section div.desc {
  }
 
  
-
-
- 
  .conteinersec{
-    display: flex;
-    flex-wrap: wrap;
+    object-fit: cover;
+    width:100%;
+    height:100%;
+    overflow: hidden;
  }
  
 
+ 
+ /* style selecarg*/
 
+ #conteinerselec img{
+    width: 100%;
+ }
 
  #conteinerselec h1{
     color:white;   
@@ -140,7 +146,6 @@ section div.desc {
     margin-top: 0;
     margin: 0;
     padding: 0;
-    overflow: hidden;
     background-color: #333;
  }
 
@@ -158,6 +163,11 @@ section div.desc {
  #conteinerselec3{
     display: block;
     flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+    
  }
 
  #conteinerselec3 h2{
@@ -167,3 +177,8 @@ section div.desc {
     background-color: black;
  }
 
+ #conteinerselec3 div .iframe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
